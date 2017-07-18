@@ -116,12 +116,12 @@ L.OverPassLayer = L.FeatureGroup.extend({
           pos = new L.LatLng(e.center.lat, e.center.lon);
         }
         var popup = this.instance._poiInfo(e.tags,e.id);
-        var circle = L.circle(pos, 50, {
-          color: 'green',
-          fillColor: '#3f0',
-          fillOpacity: 0.5,
-		  radius: 500
-        })
+        var circle = L.marker(pos, 50)
+		//var circle = L.circle(pos, 50, {
+          //color: 'green',
+          //fillColor: '#3f0',
+          //fillOpacity: 0.5,c
+        //})
         .bindPopup(popup);
         this.instance.addLayer(circle);
       }
