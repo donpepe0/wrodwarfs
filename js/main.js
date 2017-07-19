@@ -6,7 +6,7 @@ var map = new L.Map('map').addLayer(osm).setView(new L.LatLng( 51.101, 17.037), 
 
 //OverPassAPI overlay
 var opl = new L.OverPassLayer({
-	
+  
   query: "area[name='Wrocław'];node(area)[artwork_type='dwarf'][name];out;",
 });
 
