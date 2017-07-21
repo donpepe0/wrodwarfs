@@ -11,7 +11,7 @@ map containing locations of Wroclaw's dwarfes
 * Park M verified
 * OddLudek verified
 
-21/01/2017
+21/07/2017
 * added dwarf Wrocławiak
 * added dwarf Ursus
 * fixed position of dwarf Park M
